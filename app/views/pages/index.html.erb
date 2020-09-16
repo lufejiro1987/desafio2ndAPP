@@ -23,7 +23,7 @@
 							<header>
 								<h1><a href="index.html" id="logo">Helios</a></h1>
 								<hr />
-								<p>Another fine freebie by HTML5 UP</p>
+								<p>Rails es genial!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">Start</a>
@@ -33,9 +33,9 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="<%= root_path %>">Home</a></li>
+								<li><%= link_to 'Home', root_path%></li>
 								<li>
-									<a href="<%= pages_test_path %>">Dropdown</a>
+									<a><%= link_to 'Test', pages_test_path%></a>
 									<ul>
 										<li><a href="#">Lorem ipsum dolor</a></li>
 										<li><a href="#">Magna phasellus</a></li>
@@ -52,9 +52,9 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-								<li><a href="<%= users_login_path %>">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li><%= link_to 'Users Login', users_login_path%></li>
+								<li><a href="#">Right Sidebar</a></li>
+								<li><a href="#">No Sidebar</a></li>
 							</ul>
 						</nav>
 
